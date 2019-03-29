@@ -9,6 +9,5 @@ num = 1
 print('The server is ready to receive')
 while 1:
     message, clientAddress = serverSocket.recvfrom(2048)
-    # serverSocket.sendto(num.to_bytes(4, 'big'), clientAddress)
     print(num)
     num = num + 1
