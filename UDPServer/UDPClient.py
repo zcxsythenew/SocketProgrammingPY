@@ -1,11 +1,11 @@
 # TODO: 在这里指定循环次数
-times = 100
+times = 20000
 
 # TODO: 在这里指定发送的数据
 message = 'LY!'
 
 from socket import *
-serverName = '192.168.56.101'
+serverName = '47.101.167.57'
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 
